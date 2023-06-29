@@ -1,7 +1,6 @@
 # Reference-Connector-Template
-This is a template for a wrapper that will allow third-party tools and services
-to consume data from the DOME 4.0 platform, perform some functionality, and return 
-relevant data back to DOME 4.0 to the benefit of the platform's users. 
+This is a template for a wrapper that will allow third-party connectors
+to provide data on the DOME 4.0 platform.
 
 The template has been created using [cookiecutter](https://github.com/cookiecutter/cookiecutter). 
 
@@ -20,9 +19,9 @@ An overview is also provided in the following table:
 
 | Input key | Description | Default value |
 |:---:|:--- |:--- |
-| `project_name` | A human-readable name of the project. | `My DOME 4.0 tool` |
-| `project_slug` | The official package name to be used when installing the package via a package manager (e.g., `pip` or `conda`).<br>This will be the root directory name and should also be the repository name on an online git repository (like GitHub or GitLab).<br><br>**Important**: A project slug value may *not* include white space. | `my-dome40-tool` |
-| `package_name` | The Python importable root module.<br>This will be the root module repository name, under which the source code will be placed.<br><br>**Important**: A package name value may *not* include white space. A package name value may *only* be made up of the character set: a-z, A-Z, `_`, 0-9, and may *not* start with a number. | `my_dome40_tool` |
+| `project_name` | A human-readable name of the project. | `My DOME 4.0 connector` |
+| `project_slug` | The official package name to be used when installing the package via a package manager (e.g., `pip` or `conda`).<br>This will be the root directory name and should also be the repository name on an online git repository (like GitHub or GitLab).<br><br>**Important**: A project slug value may *not* include white space. | `my-dome40-connector` |
+| `package_name` | The Python importable root module.<br>This will be the root module repository name, under which the source code will be placed.<br><br>**Important**: A package name value may *not* include white space. A package name value may *only* be made up of the character set: a-z, A-Z, `_`, 0-9, and may *not* start with a number. | `my_dome40_connector` |
 | `author` | The author of the package. This can also be your organization name. | `Firstname Lastname` |
 | `organization` | Your organization. | `DOME 4.0` |
 | `email` | The author's email address. | `firstname.lastname@SINTEF.org` |
@@ -30,4 +29,4 @@ An overview is also provided in the following table:
 | `year` | The current year. | `2023` |
 | `use_git` | Whether or not the generated repository should be initialized using [`git`](https://git-scm.com). | `True` |
 | `username` | A public source code platform username, e.g., for [GitHub](https://github.com), [GitLab](https://gitlab.com), [BitBucket](https://bitbucket.org) | `GitHub_GitLab_BitBucket_etc_Username` |
-| `scm_url` | The intended or existing URL to the repository's source code. | `https://github.com/FirstnameLastname/my-dome40-tool` |
+| `scm_url` | The intended or existing URL to the repository's source code. | `https://github.com/FirstnameLastname/my-dome40-connector` |
