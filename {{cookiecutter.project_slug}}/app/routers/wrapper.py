@@ -2,6 +2,20 @@
 Wrapper APIs. 
 """
 from fastapi import APIRouter
+from pydantic import BaseModel
+
+class CatalogData(BaseModel):
+    """
+    Pydantic data model for DOME 4.0 catalog datasets.
+    """
+    Dataset: list
+    IssueDate: str
+    License: str
+    Title: str
+    URL: str
+    dataCreator: str
+    dataPublisher: str
+    keyword: str
 
 router = APIRouter()
 
