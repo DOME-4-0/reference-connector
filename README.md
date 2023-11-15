@@ -30,3 +30,6 @@ An overview is also provided in the following table:
 | `use_git` | Whether or not the generated repository should be initialized using [`git`](https://git-scm.com). | `True` |
 | `username` | A public source code platform username, e.g., for [GitHub](https://github.com), [GitLab](https://gitlab.com), [BitBucket](https://bitbucket.org) | `GitHub_GitLab_BitBucket_etc_Username` |
 | `scm_url` | The intended or existing URL to the repository's source code. | `https://github.com/FirstnameLastname/my-dome40-connector` |
+
+
+Once the project is created , use the step by step guide under the folder Documents to create  a connector and onboard the provider to the platform.
